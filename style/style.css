@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  background-color: #003580;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav h1 {
+  color: #fff;
+  margin-left: 14rem;
+}
+
+.log {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15rem;
+  padding-bottom: 1rem;
+}
+
+.button-container button {
+  margin-left: 1rem;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  cursor: pointer;
+}
+
+.button-container p {
+  color: #fff;
+}
+
+.add {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.register,
+.login {
+  color: #0071c2;
+  background-color: #fff;
+  border: 1px solid #0071c2;
+}
+
+.flag {
+  height: 25px;
+  width: 25px;
+  border-radius: 60%;
+}
+
+.symbol {
+  font-size: 2.1rem;
+}
+
+.flag,
+.symbol {
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.navbar {
+  padding-top: 1rem;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 14rem;
+  color: #fff;
+}
+
+.navbar li {
+  list-style: none;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
